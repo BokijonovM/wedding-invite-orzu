@@ -13,6 +13,11 @@ const jost = localFont({
 export const metadata: Metadata = {
   title: "Taklifnoma",
   description: "28.06.2025 nikoh to'yi taklifnomasi",
+  icons: {
+    icon: "/favicon.ico",            // standard favicon
+    shortcut: "/favicon.ico",        // same as above, for legacy browsers
+    apple: "/apple-touch-icon.png",  // if you want an iOS touch-icon
+  },
 };
 
 export default function RootLayout({
