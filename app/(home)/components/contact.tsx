@@ -51,9 +51,9 @@ export const Contact = () => {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    const token = "7555812076:AAEGEk0z1qvLIo5br-nbMT_gWmOSrhOxHvA";
-    const chatID = "-1002653834537";
-    const isAttend = values.attend === "true" ? "Ha" : "Yoq";
+    const token = "7523351286:AAHb-t7iTOTwOKmkN73HYXfm79bzC8CGvlY";
+    const chatID = "-4701278235";
+    const isAttend = values.attend === "true" ? "Ha" : "Yo'q";
 
     const message = `<b>📬 Yangi xabar:</b>%0A<b>👤 Ismi: </b><i>${values.fullname}</i>%0A<b>📞 Xabar: </b><i>${values.text}</i>%0A<b>📧 Qatnashadi: </b><i>${isAttend}</i>`;
     const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatID}&text=${message}&parse_mode=html`;
