@@ -9,7 +9,7 @@ export const Hero = () => {
   const searchParams = useSearchParams();
   const name = searchParams.get("name");
 
-  const weddingDate = new Date("June 7, 2025 19:00:00").getTime();
+  const weddingDate = new Date("June 28, 2025 17:00:00").getTime();
 
   const [days, setDays] = useState("00");
   const [hours, setHours] = useState("00");
@@ -50,20 +50,20 @@ export const Hero = () => {
           <p className="text-2xl text-center mt-4 p-2 md:w-[60%]">
             Assalomu aleykum! <br />
             Hurmatli <u>{name ? name : "mehmonimiz"}</u>! <br />
-            Sizni <span className="text-primary font-semibold">Umidjon & Shafoat</span> <br />{" "}
+            Sizni <span className="text-primary font-semibold">Muhsinjon & Mubinaxon</span> <br />{" "}
             larning nikoh to&apos;ylari munosabati bilan <br />
-            <span className="font-semibold">2025-yil 7-iyun</span> kuni soat{" "}
-            <span className="font-semibold">19:00</span> da bo&apos;lib o&apos;tadigan &quot;Visol
+            <span className="font-semibold">2025-yil 28-iyun</span> kuni soat{" "}
+            <span className="font-semibold">17:00</span> da bo&apos;lib o&apos;tadigan &quot;Visol
             oqshomiga&quot; taklif etamiz! <br />
             <br />
-            Manzil: Buxoro viloyati Gʻijduvon tumani{" "}
+            Manzil: Farg'ona viloyati O'zbekiston tumani{" "}
             <span className="font-semibold">
               <Link
                 className="text-[#5b5bf5]"
-                href="https://yandex.uz/maps/-/CHfSZGPG"
+                href="https://maps.app.goo.gl/D1BhcUkwFBGdJqKv9"
                 target="_blank"
               >
-                Erkinobod
+                UMID
               </Link>
             </span>{" "}
             to&apos;yxonasi
