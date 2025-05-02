@@ -12,7 +12,7 @@ const jost = localFont({
 
 export const metadata: Metadata = {
   title: "Taklifnoma",
-  description: "07.06.2025 nikoh to'yi taklifnomasi",
+  description: "28.06.2025 nikoh to'yi taklifnomasi",
 };
 
 export default function RootLayout({
