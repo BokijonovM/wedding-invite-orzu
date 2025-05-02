@@ -12,7 +12,7 @@ const jost = localFont({
 
 export const metadata: Metadata = {
   title: "Taklifnoma",
-  // description: "28.06.2025 nikoh to'yi taklifnomasi",
+  description: "28.06.2025 nikoh to'yi taklifnomasi",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
