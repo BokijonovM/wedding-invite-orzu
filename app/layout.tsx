@@ -11,8 +11,15 @@ const jost = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Taklifnoma",
+  title: "M&M Taklifnoma",
   description: "28.06.2025 nikoh to'yi taklifnomasi",
+  openGraph: {
+    title:      "M&M Taklifnoma",
+    description:"28.06.2025 nikoh to'yi taklifnomasi",
+    siteName:   "M&M Wedding",
+    type:    "website",
+    locale:  "en_US"
+  },
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
