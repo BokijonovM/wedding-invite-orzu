@@ -53,8 +53,8 @@ export const Hero = () => {
             Sizni <span className="text-primary font-semibold">Muhsinjon & Mubinaxon</span> <br />{" "}
             larning nikoh to&apos;ylari munosabati bilan <br />
             <span className="font-semibold">2025-yil 28-iyun</span> kuni soat{" "}
-            <span className="font-semibold">18:00</span> da bo&apos;lib o&apos;tadigan &quot;Visol
-            oqshomiga&quot; taklif etamiz! <br />
+            <span className="font-semibold">18:00</span> da bo&apos;lib o&apos;tadigan &quot;Nikoh
+            bazmiga&quot; taklif etamiz! <br />
             <br />
             Manzil: Farg'ona viloyati O'zbekiston tumani{" "}
             <span className="font-semibold">
