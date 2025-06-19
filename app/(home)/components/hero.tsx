@@ -60,10 +60,10 @@ export const Hero = () => {
             <span className="font-semibold">
               <Link
                 className="text-[#5b5bf5]"
-                href="https://maps.app.goo.gl/D1BhcUkwFBGdJqKv9"
+                href="https://maps.app.goo.gl/bSPz8VoWhydyL1FC6"
                 target="_blank"
               >
-                UMID
+                ORZU
               </Link>
             </span>{" "}
             to&apos;yxonasi
